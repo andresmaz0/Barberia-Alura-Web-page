@@ -1,0 +1,49 @@
+.titulo_principal{
+    padding-left: 30px;
+}
+
+#banner{
+    width: 100%;
+}
+
+.titulo{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+em strong{
+    color: red;
+}
+
+#mision{
+    font-size: 20px;
+}
+
+.principal{
+    background: #CCCCCC;
+    padding: 20px;
+}
+
+.diferenciales{
+    background: #FFFFFF ;
+    padding: 30px;
+}
+
+/* con esto llamos a mi clase items */
+.items{
+    font-style: italic;
+}
+
+ul{
+    display: inline-block;
+    /* con inline-block hago que el espacio que no utiliza mi lista pueda ser utilizado */
+    vertical-align: top;
+    margin-right: 15%;
+}
+
+.imagen_diferenciales{
+    width: 50%;
+}
