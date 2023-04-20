@@ -23,9 +23,13 @@ em strong{
     color: red;
 }
 
-#mision{
+#localización{
     font-size: 20px;
     padding: 20px;
+}
+
+#mision{
+    font-style: italic;
 }
 
 .principal{
