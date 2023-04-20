@@ -1,5 +1,9 @@
 .titulo_principal{
-    padding-left: 30px;
+    padding: 30px;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    font-size: 30px;    
 }
 
 #banner{
