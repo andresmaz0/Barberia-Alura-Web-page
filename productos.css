@@ -32,6 +32,7 @@ nav a{
 .productos{
     width: 940px;
     margin: 0 auto;
+    padding: 50px;
 }
 
 .productos li{
