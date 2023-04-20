@@ -40,6 +40,11 @@ nav a{
     text-align: center;
     width: 30%;
     vertical-align: top;
+    background: #CCCCCC;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    /* limita el espacio que tengo poniendo como limite el tamaño del item en este caso 30% */
+    box-sizing: border-box;
 }
 
 .productos h2{
