@@ -71,6 +71,12 @@ nav a:hover{
     font-weight: bold;
 }
 
+/* Creo este hover por que el programa le da mas importancia al font size de h2 que el .products li hover  */
+/* con este hover le indico que cuando pase el mouse encima de mis productos afecte el h2 osea el titulo*/
+.productos li:hover h2{
+    font-size: 33px;
+}
+
 .descripcion{
     font-size: 18px;
 }
