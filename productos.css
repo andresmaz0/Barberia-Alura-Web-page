@@ -93,6 +93,7 @@ footer{
     padding: 40px;
 }
 
-footer p{
-    color: white;
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
 }
