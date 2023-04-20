@@ -6,6 +6,7 @@ header{
 .caja{
     width: 940px;
     position: relative;
+    /* 0 en la parte superior e inferior y automatico a los bordes */
     margin: 0 auto;
 }
 
