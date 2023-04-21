@@ -13,6 +13,8 @@
 
 .titulo{
     text-align: center;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 p{
@@ -23,13 +25,23 @@ em strong{
     color: red;
 }
 
-#localización{
+#localizacion{
     font-size: 20px;
     padding: 20px;
 }
 
+#localizacion strong{
+    font-weight: bold;
+}
+
 #mision{
     font-style: italic;
+    padding-bottom: 20px;
+}
+
+#mision strong{
+    color: red;
+    font-weight: bold;
 }
 
 .principal{
