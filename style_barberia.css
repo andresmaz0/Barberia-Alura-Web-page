@@ -1,9 +1,38 @@
-.titulo_principal{
-    padding: 30px;
-    text-align: center;
+header{
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    /* 0 en la parte superior e inferior y automatico a los bordes */
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
     color: #000000;
     font-weight: bold;
-    font-size: 30px;    
+    font-size: 22px;
+    text-decoration: none;
+}
+
+/* hover captura el movimiento de mi mouse */
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
 }
 
 #banner{
@@ -50,7 +79,7 @@ em strong{
 }
 
 .diferenciales{
-    background: #FFFFFF ;
+    background: #FFFFFF;
     padding: 30px;
 }
 
@@ -59,7 +88,7 @@ em strong{
     font-style: italic;
 }
 
-ul{
+.diferenciales ul{
     display: inline-block;
     /* con inline-block hago que el espacio que no utiliza mi lista pueda ser utilizado */
     vertical-align: top;
