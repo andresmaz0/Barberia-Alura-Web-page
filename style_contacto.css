@@ -41,7 +41,15 @@ main{
 }
 
 form{
-    
+    margin: 40px 0px;
+}
+
+form label{
+    display: block;
+}
+
+form input{
+    display: block;
 }
 
 footer{
