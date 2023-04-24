@@ -39,28 +39,29 @@
                 <label for="mensaje">Mensaje</label>
                 <textarea cols="68" rows="10" id="mensaje" class="input-padron"></textarea>
 
-                <div>
-                    <p>¿Como le gustaria que lo contactemos?</p>
+                <!-- utilizo fieldset para cuando todo lo que idento se refiere a una mismo tipo de información -->
+                <fieldset>
+                    <legend>¿Como le gustaria que lo contactemos?</legend>
                     <!-- pongo el input dentro del label para que se aline con mis opciones-->
                     <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
 
                     <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Telefono</label>
 
-                    <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp">Whatsapp</label>
+                    <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
                     
-                </div>
+                </fieldset>
 
-                <div>
-                    <p>¿En cuál horario prefiere ser atendido?</p>
+                <fieldset>
+                    <legend>¿En cuál horario prefiere ser atendido?</legend>
                     <select>
                         <option>Mañana</option>
                         <option>Tarde</option>
                         <option>Noche</option>
                     </select>
-                </div>
+                </fieldset>
                 
                 <!-- otra forma de poner el label y el input -->
-                <label class="checkbox"><input type="checkbox">Le gustaria recibir novedades de la Barberia?</label>
+                <label class="checkbox"><input type="checkbox" checked>Le gustaria recibir novedades de la Barberia?</label>
 
                 <input type="submit" value="Enviar Formulario">
 
