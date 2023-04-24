@@ -35,6 +35,15 @@ nav a:hover{
     text-decoration: underline;
 }
 
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    
+}
+
 footer{
     text-align: center;
     background: url(imagenes/bg.jpg);
