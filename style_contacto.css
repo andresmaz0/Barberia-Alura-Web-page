@@ -50,7 +50,7 @@ form label{
     margin: 0 0 10px;
 }
 
-form input, form textarea{
+.input-padron{
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
