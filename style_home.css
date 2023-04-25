@@ -86,9 +86,23 @@ em strong{
     font-weight: bold;
 }
 
+.mapa{
+    padding: 3em 0;
+}
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
 .diferenciales{
     background: #FFFFFF;
     padding: 30px;
+}
+
+.contenido-diferenciales{
+    width: 640px;
+    margin: 0 auto;
 }
 
 /* con esto llamos a mi clase items */
@@ -103,16 +117,7 @@ em strong{
     margin-right: 15%;
 }
 
-.mapa{
-    padding: 3em 0;
-}
-
-.mapa p{
-    margin: 0 0 2em;
-    text-align: center;
-}
-
-.imagen_diferenciales{
+.imagen-diferenciales{
     width: 50%;
 }
 
