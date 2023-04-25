@@ -93,6 +93,15 @@ em strong{
     margin-right: 15%;
 }
 
+.mapa{
+    padding: 3em 0;
+}
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
 .imagen_diferenciales{
     width: 50%;
 }
