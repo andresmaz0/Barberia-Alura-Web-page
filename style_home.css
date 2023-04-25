@@ -97,28 +97,26 @@ em strong{
 
 .diferenciales{
     background: #FFFFFF;
-    padding: 30px;
+    padding: 1em 0;
 }
 
 .contenido-diferenciales{
-    width: 640px;
     margin: 0 auto;
+}
+
+.lista-diferenciales{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
 }
 
 /* con esto llamos a mi clase items */
 .items{
-    font-style: italic;
-}
-
-.diferenciales ul{
-    display: inline-block;
-    /* con inline-block hago que el espacio que no utiliza mi lista pueda ser utilizado */
-    vertical-align: top;
-    margin-right: 15%;
+    line-height: 1.5;
 }
 
 .imagen-diferenciales{
-    width: 50%;
+    width: 60%;
 }
 
 .video{
