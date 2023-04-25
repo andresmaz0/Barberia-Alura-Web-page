@@ -41,7 +41,6 @@ nav a:hover{
 }
 
 .principal{
-    background: #CCCCCC;
     padding: 20px;
 }
 
@@ -56,6 +55,8 @@ nav a:hover{
 .utencilios{
     width: 120px;
     float: left;
+    /* superior-derecha-inferior-izquierda */
+    margin: 0 20px 20px 0;
 }
 
 p{
