@@ -39,20 +39,18 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-main{
-    width: 60%;
-    margin: 0 auto;
-}
-
 .banner{
-    width: 100%;
+    width: 940px;
     height: 600px;
+    margin: 0 auto;
 }
 
 .principal{
     background: #FEFEFE;
     /* arriba y abajo | izquierda y derecha */
     padding: 2em 1em 0;
+    width: 940px;
+    margin: 0 auto;
 }
 
 .principal p{
@@ -94,6 +92,13 @@ em strong{
 
 .mapa{
     padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.mapa-contenido{
+    width: 940px;
+    margin: 0 auto;
 }
 
 .mapa p{
