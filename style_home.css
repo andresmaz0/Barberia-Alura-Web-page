@@ -40,24 +40,30 @@ nav a:hover{
     height: 600px;
 }
 
+.principal{
+    background: #CCCCCC;
+    padding: 20px;
+}
+
 .titulo{
     text-align: center;
     font-weight: bold;
     font-size: 2em;
     margin: 0 0 1em;
+    clear: left;
+}
+
+.utencilios{
+    width: 120px;
+    float: left;
 }
 
 p{
-    text-align: center;
+    margin: 0 0 1em;
 }
 
 em strong{
     color: red;
-}
-
-#localizacion{
-    font-size: 20px;
-    padding: 20px;
 }
 
 #localizacion strong{
@@ -66,17 +72,11 @@ em strong{
 
 #mision{
     font-style: italic;
-    padding-bottom: 20px;
 }
 
 #mision strong{
     color: red;
     font-weight: bold;
-}
-
-.principal{
-    background: #CCCCCC;
-    padding: 20px;
 }
 
 .diferenciales{
