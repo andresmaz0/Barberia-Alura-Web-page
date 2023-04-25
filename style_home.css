@@ -44,6 +44,11 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+main{
+    width: 60%;
+    margin: 0 auto;
+}
+
 .titulo{
     text-align: center;
     font-weight: bold;
