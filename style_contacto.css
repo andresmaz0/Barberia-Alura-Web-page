@@ -132,4 +132,8 @@ footer{
     main, .input-padron, .enviar, .caja{
         width: auto;
     }
+
+    form label, form legend, .input-padron{
+        margin: 0 0 5px 10px;
+    }
 }
