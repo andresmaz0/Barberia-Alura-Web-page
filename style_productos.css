@@ -112,6 +112,14 @@ footer{
         position: static;
     }
 
+    nav li{
+        display: grid;
+        text-align: center;
+        padding: 5px 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .caja, .productos,.productos li{
         width: auto;
     }
