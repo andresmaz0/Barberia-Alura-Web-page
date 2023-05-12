@@ -71,6 +71,7 @@ form label, form legend{
     font-size: 18px;
     font-weight: bold;
     color: white;
+    display: block;
     background: orange;
     border: none;
     border-radius: 5px;
@@ -131,6 +132,11 @@ footer{
 
     main, .input-padron, .enviar, .caja, .enviar{
         width: auto;
+    }
+
+    table, .enviar{
+        margin-left: auto;
+        margin-right: auto;
     }
 
     form label, form legend, .input-padron, form select{
