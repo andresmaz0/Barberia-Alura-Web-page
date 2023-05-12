@@ -111,12 +111,23 @@ footer{
     nav{
         position: static;
     }
-    
+
     .caja, .productos,.productos li{
         width: auto;
     }
 
+    .productos{
+        padding: 10px;
+    }
+
     .productos li{
         display: grid;
+        padding: 30px 10px;
+        margin: 10% 1.5%;
+    }
+
+    .productos li img{
+        margin-left: auto;
+        margin-right: auto;
     }
 }
