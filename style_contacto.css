@@ -129,11 +129,15 @@ footer{
         margin-right: auto;
     }
 
-    main, .input-padron, .enviar, .caja{
+    main, .input-padron, .enviar, .caja, .enviar{
         width: auto;
     }
 
-    form label, form legend, .input-padron{
+    form label, form legend, .input-padron, form select{
         margin: 0 0 5px 10px;
+    }
+
+    .checkbox{
+        margin: 20px 5px;
     }
 }
