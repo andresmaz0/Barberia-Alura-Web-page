@@ -173,12 +173,23 @@ footer{
     h1{
         text-align: center;
     }
+    
     nav{
         position: static;
     }
+
+    nav li{
+        display: grid;
+        text-align: center;
+        padding: 5px 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video, .contenido-video {
         width: auto;
     }
+    
     .banner, .lista-diferenciales, .imagen-diferenciales{
         width: 100%;
     }
