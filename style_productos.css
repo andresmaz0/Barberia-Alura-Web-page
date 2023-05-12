@@ -112,7 +112,7 @@ footer{
         position: static;
     }
     
-    .caja, .productos{
+    .caja, .productos,.productos li{
         width: auto;
     }
 
